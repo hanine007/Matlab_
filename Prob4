@@ -1,1 +1,4 @@
->> A= (exp (x*sin(x))/(x^2-3 ))*abs ((x^2-1)*sqrt(x^sin(log(abs(x-1))))^abs(x^3-5))
+ A= (exp (x*sin(x))/(x^2-3 ))*abs ((x^2-1)*sqrt(x^sin(log(abs(x-1))))^abs(x^3-5));
+
+ C=(a&b)||(a||b)
+

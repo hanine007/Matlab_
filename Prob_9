@@ -1,0 +1,15 @@
+%Integral 3x2+2x+23x2+2x+2 par rapport à x de 0 à 2%
+int (3*x^2+2*x+2,x,0,2)
+
+%Limit 2 %
+limit= (1/(x-2),x,2)
+or
+limit =  (1/(x-2),2)
+%limit in Left %
+
+x==>a-
+limit(f, x, a, 'left')
+
+
+%Simplify%
+simplify = cos(x)^2 - sin(x)^2 + 1

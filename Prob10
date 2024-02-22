@@ -1,0 +1,17 @@
+clear all
+close all
+clc
+% Ce programme permet de calculer la surface et la circonference d'un
+% disque
+
+
+%Rayon du disque
+R = input ('introduire le rayon de votre cercle ');
+Surface_disque= pi*R^2;
+%Claculer la circonference
+Circon= 3*pi*R;
+disp ('Resultats:')
+disp ('la surface et la circonference du disque est ')
+disp(['pour un rayon égal à R = ' num2str(R) ' m'])
+disp (['la surface est de ' num2str(Surface_disque) 'm^2' ])
+disp (['la circonference est de ' num2str(Circon) 'm^2' ])

@@ -1,0 +1,13 @@
+clear all
+close all
+clc
+
+% racine de equation de deuxiéme ordre
+mat =[1 2;2 3]
+a = det (mat)
+b= trace(mat)
+[n,m]= size(mat)
+c= n+m
+p =[a,b,c]
+r = roots(p);
+disp(['les racines sont ' num2str(r)]);

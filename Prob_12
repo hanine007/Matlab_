@@ -1,0 +1,14 @@
+clear all
+close all
+clc
+
+a = input ('donner le a Partie réell')
+b = input ('donnez le Partie imaginaire ')
+module = sqrt (a^2+b^2)
+argument = atan(b/a)
+conj= a-b*j
+%avec fonction definis%
+z = 3 + 4i % Nombre complexe 3 + 4i
+modulez = abs(z)
+argumentz = angle(z)
+conj_z = conj(z);

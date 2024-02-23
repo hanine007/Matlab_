@@ -1,0 +1,19 @@
+n= input ('donnez la valeur de n ')
+while  mod(n, 2) ~= 0 
+    input ('redonnez la valeur de n ')
+end
+%mat1%
+one= ones(n,n)
+onee=tril (one,-1)
+onee(1,n)=1
+%mat2%
+two =eye(n)
+twoo= rot90(two)
+%mat3%
+the=ones(n/2,n)
+thee= triu(the)
+%mat4%
+four=ones(n/2,n)
+foour=triu(four,2)+tril(four,-2)
+%mat gloobal%
+A=[onee twoo;thee foour]

@@ -1,0 +1,37 @@
+ % zero %
+z = zeros (n,m)
+% one %
+a = ones (n,m)
+%five%
+f= 5*ones (n,m)
+%random%
+r = rand (n,m)
+t= rand (n,m)*2 between 0 and 2
+%get value %
+p = t(1,2)
+%moodify value %
+t (1,2)=2
+%get line two%
+y = t(2,:)
+%get coolumn two%
+y = t (:,2)
+%get other parties%
+y = (1,2:3) % value on line one and collumn two and thereee
+%matrice id%
+a = eye (4)
+%diagonal%
+p= diag(a)
+% det%
+i = det (a)
+% rannnk%
+t= rank (a)
+%1 3 5 7
+%3 6 9 12
+%1 2 3 4
+f= [1:2:7;3:3:12;1:4]
+%upper triangular%
+ a = tril (f)
+%lower triangular %
+a = triu (f)
+%rotation%
+a = rot90(f)

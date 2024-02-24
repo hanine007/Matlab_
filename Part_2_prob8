@@ -1,0 +1,10 @@
+function[a,b,c]= prob1_part4(x,y)
+if mod(x,y) == 0
+    a=1
+else a=0
+end
+    b=floor(y/x)
+    c=mod(y,x)
+end
+% 
+>> [a, b, c] = prob1_part4(6, 18);   pour l'executer %

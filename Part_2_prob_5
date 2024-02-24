@@ -1,0 +1,21 @@
+close all
+clear all
+clc
+x=linspace(0,1)
+f=(x.*sin(x))
+subplot(3,3,1)
+plot(x,f),grid
+xlabel('x')
+ylabel('y')
+
+g=x.^2
+subplot(3,3,2)
+plot(x,g),grid on
+xlabel('x')
+ylabel('y')
+
+h=exp(-x)
+subplot(3,3,3)
+plot(x,h),grid on
+xlabel('x')
+ylabel('y')

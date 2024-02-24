@@ -1,0 +1,10 @@
+clear all
+close all
+clc
+
+x = linspace (0,4*pi)
+f = exp(-2*x).*sin(5*x)
+plot(x,f,'r'),grid
+xlabel('x')
+ylabel('y')
+titel('graaaphe')

@@ -3,6 +3,7 @@ while  mod(n, 2) ~= 0
     input ('redonnez la valeur de n ')
 end
 %mat1%
+
 one= ones(n,n)
 onee=tril (one,-1)
 onee(1,n)=1

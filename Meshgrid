@@ -1,0 +1,8 @@
+clear all
+close all
+clc
+
+[x,y]=meshgrid (1:2:100,0:3:10)
+ f= x.^2+y.^2
+
+ mesh(x,y,f)

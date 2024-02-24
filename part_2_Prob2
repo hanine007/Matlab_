@@ -1,0 +1,10 @@
+clear all
+close all
+clc
+
+n= input('donnez la valeur de n')
+mat= rand(n,n)*100
+a= mat([2 n-1], [1 n-2])
+
+v= mat(2,:)*mat(:,n-1)
+b= inv (a)*(sum(v))

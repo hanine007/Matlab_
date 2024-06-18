@@ -4,4 +4,4 @@ c= a+b
 d = a * b
 [n,m]=size(a)
 [n,m]=size(b)
-k= det (a)
+k= det (a) 
